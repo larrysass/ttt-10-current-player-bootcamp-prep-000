@@ -9,5 +9,5 @@ end
 end 
 
 def current_player(board)
- whose_turn = turn_count(board) % 2 == 0 ? 
+ whose_turn = turn_count(board) % 2 == 0 ? 'X' : 'O'
 end
